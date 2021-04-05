@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function()
 
   THREE.ImageUtils.crossOrigin = '';
   // IMPORTANT: This next line defines the texture of your coin. I didn't include the Minecraft texture (for copyright reasons) You should replace the url inside '.load(...)' with the path to your own image.
-  const texture = new THREE.TextureLoader().load( "bitcoin.jpg" );
+  const texture = new THREE.TextureLoader().load( "bitcoin.png" );
 
   const material = new THREE.MeshStandardMaterial({
     map: texture,
